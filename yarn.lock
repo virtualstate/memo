@@ -766,6 +766,11 @@
   dependencies:
     "@types/node" "*"
 
+"@virtualstate/composite-key@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@virtualstate/composite-key/-/composite-key-1.0.0.tgz#352b93df5b9199951cc370897bca8bb5b171a375"
+  integrity sha512-5G3RT87X1w39UQyBvqQpTfsxK9FjoKlXfonvIY9esAHe9d0vOWVGtbElJppwJKWzh508Ja6gWn7W7dWHwj50Jw==
+
 "@virtualstate/dom@^2.46.0":
   version "2.46.0"
   resolved "https://registry.npmjs.org/@virtualstate/dom/-/dom-2.46.0.tgz#e8e4cd9f1bef09bf39dc04ccc3374275097a3336"

@@ -1,14 +1,14 @@
 import {
   children,
-  getChildrenFromRawNode, getNameKey, h, isComponentFn, isFragment, isLike,
+  getChildrenFromRawNode, getNameKey, h, isComponentFn, isFragment,
   isUnknownJSXNode,
-  name, ok, possibleChildrenKeys,
+  name, ok,
   properties,
   raw,
 } from "@virtualstate/focus";
 import { Push } from "@virtualstate/promise";
 import {isAsyncIterable} from "./is";
-import {createCompositeKey} from "./composite";
+import {createCompositeKey} from "@virtualstate/composite-key";
 
 function createMemoFn<A extends unknown[], T>(source: (...args: A) => T): (...args: A) => T {
   const cache = new WeakMap<object, T>();

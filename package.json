@@ -21,6 +21,7 @@
   "author": "Fabian Cook <hello@fabiancook.dev>",
   "license": "MIT",
   "dependencies": {
+    "@virtualstate/composite-key": "^1.0.0",
     "@virtualstate/focus": "^1.1.1",
     "@virtualstate/promise": "^1.1.6",
     "abort-controller": "^3.0.0",
